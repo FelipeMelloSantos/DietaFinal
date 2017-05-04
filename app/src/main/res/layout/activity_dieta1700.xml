@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="felipe.app.dieta.Dieta1700">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lanches"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Jantar"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Pêra 1 unidade grande (80 calorias)                                                                     Pão de forma integral 2 fatias (120 calorias)                               Queijo minas fresco 1 fatia grossa (55 calorias)                                                           Suco de uva natural 1 copo de 200 ml (125 calorias)"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Salada de folhas verde com tomate cereja e cebola em rodelas 1 prato de sobremesa cheio (30 calorias)                                            Azeite de oliva 1 colher de sopa (4ml) (36 calorias)                                                         Arroz integral 5 colheres de sopa (120 calorias)                                                       Brócolis no vapor 4 buquês (30 calorias)                                                          Salmão grelhado 1 posta média (110g) (170 calorias)                                                         Abacaxi 3 fatias (55 calorias)    "
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Pêra 1 unidade grande (80 calorias)                                                                     Pão de forma integral 2 fatias (120 calorias)                               Queijo minas fresco 1 fatia grossa (55 calorias)                                                           Suco de uva natural 1 copo de 200 ml (125 calorias)"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33"
+            android:layout_marginTop="-230dp" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="163dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="Pêra 1 unidade grande (80 calorias)                                                                     Pão de forma integral 2 fatias (120 calorias)                               Queijo minas fresco 1 fatia grossa (55 calorias)                                                           Suco de uva natural 1 copo de 200 ml (125 calorias)"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Almoço"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintHorizontal_bias="0.486"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Salada de alface, agrião, cenoura cozida, palmito e tomate 1 prato de sobremesa (26 calorias)                                                                       Castanhas do pará sem sal em lascas 1 unidade (105 calorias)                                                    Azeite de oliva 1 colher de sopa (4 ml) (36 calorias)                                                     Arroz branco 5 colheres de sopa (120 calorias)                                     Feijão carioca 1 concha média (60 calorias)                                                      Bife de alcatra grelhado 1 bife médio (120g) (160 calorias)                                         Morango 1 porção 150g (15 unidades) (40 calorias)                                                             "
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Café da Manhã"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Pão de forma integral 2 fatias (120 calorias)                                                                  Requeijão light 1 colher de sopa (55 calorias)                                                                  Café com leite desnatado claro 1 copo de 200ml (80 calorias)                                                      Mamão papaia 1/2 unidade (40 calorias)     "
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView44" />
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
