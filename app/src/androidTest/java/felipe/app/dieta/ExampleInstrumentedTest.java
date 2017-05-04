@@ -1,3 +1,10 @@
+/*Componentes:
+    Edmilson Matos
+    Danilo Augusto
+    Felipe Mello
+    Fernando Fabio
+    Wendel Correia*/
+
 package felipe.app.dieta;
 
 import android.content.Context;
