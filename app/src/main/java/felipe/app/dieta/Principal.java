@@ -1,5 +1,12 @@
 package felipe.app.dieta;
 
+/*Componhentes:
+   Edmilson Matos
+   Danilo Augusto
+   Felipe Mello
+   Fernando Fabio
+   Wendel Correia */
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +16,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+
+
+
 
 public class Principal extends AppCompatActivity {
 
